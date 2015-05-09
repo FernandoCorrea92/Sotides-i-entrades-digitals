@@ -27,19 +27,14 @@ int temps = 1000;
 
  //******  Loop  **********************************************************
  void loop () {
- //Numero 0
- digitalWrite(ledPin[0], HIGH);
- digitalWrite(ledPin[1], HIGH);
- digitalWrite(ledPin[2], HIGH);
+ 
+ digitalWrite(ledPin[0], LOW);
+ digitalWrite(ledPin[1], LOW);
+ digitalWrite(ledPin[2], LOW);
  digitalWrite(ledPin[3], HIGH);
- digitalWrite(ledPin[4], HIGH);
+ digitalWrite(ledPin[4], LOW);
  digitalWrite(ledPin[5], HIGH);
+ digitalWrite(ledPin[6], HIGH);
  digitalWrite(ledPin[7], HIGH);
  delay(temps);
- 
- //Numero 1
- digitalWrite(ledPin[3], LOW);
- digitalWrite(ledPin[4], LOW);
- digitalWrite(ledPin[5], LOW);
- digitalWrite(ledPin[7], LOW);
-}
+ }
